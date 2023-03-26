@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping Cart</title>
+	<link rel="stylesheet" type="text/css" href="cart.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!--Navbar Section-->
+    <nav class="navbar">
+        <ul class="links-container">
+             <li class="link-item"><a href="index.html" class="link">Home</a></li>
+             <li class="link-item"><a href="product.html" class="link">Products</a></li>
+             <li class="link-item"><a href="signup-2.html" class="link">About</a></li>
+             <li class="link-item"><a href="login.html" class="link">Contact</a></li>
+        </ul>
+        <div class="user-interactions">
+             <div class="cart">
+                  <img src="cart-1.png" class="cart-icon">
+                  <span class="cart-item-count">00</span>
+             </div>
+             <div class="user">
+                  <img src="user-2.png" class="user-icon" href="signup-2.html" alt="">
+             </div>
+        </div>
+   </nav>
+	<div class="container">
+		<h1>Your Selection</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>Item</th>
+					<th>Price</th>
+					<th>Quantity</th>
+					<th>Total</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Yaha par rows daal de na as the user adds the items to the cart-->
+			</tbody>
+		</table>
+		<div class="checkout">
+			<p>Total: ₹0.00</p>
+			<button>Checkout</button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
