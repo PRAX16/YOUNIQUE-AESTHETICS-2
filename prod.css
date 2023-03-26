@@ -156,3 +156,56 @@ nav a {
 nav a:hover {
     color: #d5be80;
 }
+
+/* Review section */
+.reviews-section {
+    padding: 70px 10;
+    margin-top: 30px;
+    background-color: whitesmoke;
+  }
+  
+  .section-title {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .review {
+    width: 350px;
+    padding: 30px;
+    margin: 20px;
+    background-color: #d5be8b;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .review-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .review-rating {
+    font-size: 24px;
+    margin-top: 15px;
+  }
+  
+  .rating-star {
+    color: #ffd700;
+  }
