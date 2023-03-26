@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+        <!--Navbar Section-->
+        <nav class="navbar">
+            <ul class="links-container">
+                 <li class="link-item"><a href="index.html" class="link">Home</a></li>
+                 <li class="link-item"><a href="product.html" class="link">Products</a></li>
+                 <li class="link-item"><a href="signup-2.html" class="link">About</a></li>
+                 <li class="link-item"><a href="login.html" class="link">Contact</a></li>
+            </ul>
+            <div class="user-interactions">
+                 <div class="cart">
+                    <a href="cart.html">
+                        <img src="cart-1.png" class="cart-icon">
+                   </a>
+                        <span class="cart-item-count">00</span>
+                   </div>
+                   <div class="user">
+                        <a href="login.html">
+                        <img src="user-2.png" class="user-icon" alt="">
+                   </a>
+            </div>
+       </nav>
+    <h1>Checkout</h1>
+    <form>
+      <h2>Personal Information</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="4" cols="50" required></textarea>
+      
+      <h2>Payment Information</h2>
+      <label for="paymentMethod">Payment Method:</label>
+      <select id="paymentMethod" name="paymentMethod" required>
+        <option value="card">Credit/Debit Card</option>
+        <option value="cod">Cash on Delivery</option>
+        <option value="gpay">Google Pay</option>
+        <option value="paytm">Paytm</option>
+      </select>
+      <label for="cardname">Name on Card:</label>
+      <input type="text" id="cardname" name="cardname" required>
+      <label for="cardnumber">Card Number:</label>
+      <input type="text" id="cardnumber" name="cardnumber" pattern="[0-9]{16}" required>
+      <label for="expdate">Expiration Date:</label>
+      <input type="month" id="expdate" name="expdate" required>
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" name="cvv" pattern="[0-9]{3}" required>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
