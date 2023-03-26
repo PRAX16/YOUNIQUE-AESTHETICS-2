@@ -209,3 +209,10 @@ nav a:hover {
   .rating-star {
     color: #ffd700;
   }
+
+  .review-username {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+    text-align: left;
+  }
