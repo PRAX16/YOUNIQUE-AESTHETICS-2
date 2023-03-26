@@ -18,13 +18,17 @@
                  <li class="link-item"><a href="login.html" class="link">Contact</a></li>
             </ul>
             <div class="user-interactions">
-                 <div class="cart">
-                      <img src="cart-1.png" class="cart-icon">
-                      <span class="cart-item-count">00</span>
-                 </div>
-                 <div class="user">
-                      <img src="user-2.png" class="user-icon" alt="">
-                 </div>
+                <div class="cart">
+                <a href="cart.html">
+                    <img src="cart-1.png" class="cart-icon">
+               </a>
+                    <span class="cart-item-count">00</span>
+               </div>
+               <div class="user">
+                    <a href="login.html">
+                    <img src="user-2.png" class="user-icon" alt="">
+               </a>
+               </div>
             </div>
        </nav>
        
@@ -38,7 +42,13 @@
                 <span class="rating-count">0 reviews</span>
             </div>
 
-            <!--Readymade ratings image to be added similar to the image down filled for actual ratings! That is why left blank!-->
+            <div class="review-rating">
+                <span class="rating-star">&#9733;</span>
+                <span class="rating-star">&#9733;</span>
+                <span class="rating-star">&#9733;</span>
+                <span class="rating-star">&#9733;</span>
+                <span class="rating-star">&#9734;</span>
+              </div>
             <p class="price">₹1250</p>
             <div class="btn-container">
                 <button class="product-btn buy-btn">Buy Now</button>
@@ -53,19 +63,32 @@
         <textarea placeholder="review" class="review-field"></textarea>
         <p class="rating-text">How much you liked the product</p>
 
-        <!--<div class="star-container">-->
-            <!-- The images for the star rating to be applied-->
-        <!--</div>-->
+        <div class="review-rating">
+            <span class="rating-star">&#9734;</span>
+            <span class="rating-star">&#9734;</span>
+            <span class="rating-star">&#9734;</span>
+            <span class="rating-star">&#9734;</span>
+            <span class="rating-star">&#9734;</span>
+        </div>
 
         <button class="add-review-btn">Add review</button>
        </section>
 
-       <section class="reviews-section">
-        <h1 class="section-title">Reviews</h1>
-        <div class="reviews-container">
-          <!-- Reviews to be added using js-->
-        </div>
-      </section> 
+<section class="reviews-section"> 
+  <div class="reviews-container">
+    <div class="review">
+      <h2 class="review-title">Great product!</h2>
+      <p class="review-text">I love this product. It works really well and is easy to use.</p>
+      <div class="review-rating">
+        <span class="rating-star">&#9733;</span>
+        <span class="rating-star">&#9733;</span>
+        <span class="rating-star">&#9733;</span>
+        <span class="rating-star">&#9733;</span>
+        <span class="rating-star">&#9733;</span>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 </body>
